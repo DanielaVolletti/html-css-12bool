@@ -8,6 +8,15 @@
 /* tutte le colonne */
 [class*="col-"] {
   background-color: pink;
-  height: 150px;
+  min-height: 150px;
   border: solid 1px black;
+}
+
+#rosa-scuro [class*="col-"] {
+  background-color: #d36e70;
+  padding: 5px;
+}
+
+#rosa-scuro [class="col-6 container"] > div {
+  border: solid 1px white;
 }
